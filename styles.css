@@ -1,29 +1,44 @@
 body {
     margin: 0;
+    background-color: #c2748f;
+    color: #885454;
     font-family: 'Arial';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+  h1{
+    color:#3f3131;
+    text-align: center;
+    /*background-color: bisque; */
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+
   }
   
   code {
     font-family: Arial;
   }
+  .content {
+    max-width: 500px;
+    margin: auto;
+  }
   
   .app {
-    background: #209cee;
+    background: #c2748f;
     padding: 30px;
     height: 100vh;
   }
   
   .todo-list{
-    background: #e8e8e8;
+    background: #a15c5c;
     border-radius: 4px;
     padding: 5px;
     max-width: 400px;
   }
   
   .todo{
-    background: #fff;
+    background: #e3c3c3;
     box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
     padding: 3px 10px;
     font-size: 24px;
@@ -36,6 +51,7 @@ body {
   
   .input{
     width: 100%;
+    background: #e3c3c3;
     box-sizing: border-box;
     border: 0;
     border-radius: 4px;
