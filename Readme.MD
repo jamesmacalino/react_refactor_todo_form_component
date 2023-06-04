@@ -1,6 +1,7 @@
 # React App ToDo List
 
-##  Developing a ToDo List and having the ability to add and remove items from the list
+##  Developed ToDo List with the ability to add and remove items from the list
+##  Refactored the forms and todo functions of the app to make it more modular
 
 ###
 App written in JS with React coding meant to exercise the forms process where you can add
